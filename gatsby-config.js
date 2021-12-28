@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Meu Portfolio",
+    title: "Caio Cavalcanti",
+    author: "@getacaio",
+    siteUrl: 'https://github.com/CaioSix'
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
+  ],
 };
